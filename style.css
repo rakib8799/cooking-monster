@@ -1,0 +1,39 @@
+body {
+	background: #edd263;
+}
+.text-main {
+	color: #3b2d64;
+}
+#cooking-food {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0 2rem;
+}
+.food-items {
+	cursor: pointer;
+}
+.thumb-img {
+	height: 26vh;
+}
+.text-height {
+	min-height: 9vh;
+}
+.img-height {
+	height: 40vh;
+}
+.lists {
+	list-style-type: none;
+}
+.elements {
+	min-height: 80%;
+	position: fixed;
+	top: 10%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+@media (max-width: 576px) {
+	#cooking-food {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
